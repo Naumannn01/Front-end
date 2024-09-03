@@ -1,0 +1,161 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+    font: 12px 'Arimo', Arial, Verdana, Tahoma
+}
+
+/* Top Navbar */
+nav {
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+.horizontal li {
+    padding: 15px;
+    height: 10px;
+}
+
+/* Header banner */
+header {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    /* background-color:rgb(102, 102, 201); */
+    /* color: rgb(0, 0, 0); */
+    padding: 15px 15px 0px 0px;
+
+}
+
+.logo {
+    display: flex;
+    width: calc(100/3)px;
+}
+
+img {
+    width: 55px;
+    height: 55px;
+}
+
+h3 {
+    align-items: center;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.banner-part2 {
+    display: flex;
+    padding-left: 150px;
+    width: calc(100/3)px;
+    /* background-color: beige; */
+
+}
+
+.search-bar input {
+    height: 25px;
+    width: 300px;
+}
+.cart{
+    width: calc(100/3)px;
+    /* background-color: aqua; */
+    height: 30px;
+    padding-left: 350px;    
+}
+/* Main content */
+.main-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* background-color: aquamarine; */
+}
+
+/* Side navbar */
+aside{
+    width: calc(100%/7);
+    height: auto;
+    padding-left: 20px;
+}
+aside ul{
+    width: 100%;
+    height: 100%;
+}
+
+aside ul li{
+    width: 100%;
+    height: 30px;
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    /* padding-left: 10px; */
+    cursor: pointer;
+}
+
+/* Section */
+section{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.gallery-sect{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.product-card{
+    width: 250px;
+    height: 300px;
+    border: 1px solid rgb(195, 188, 188);
+    margin: 10px;
+}
+.product-card .namePill{
+    margin: 5px;
+
+    position: relative;
+    font-size: 20px;
+}
+.product-card .ingripill{
+    margin: 5px;
+    position: relative;
+    color: rgb(81, 79, 77);
+}
+
+.product-card img{
+    padding: 30px;
+    width: 200px;
+    height: 100px;
+}
+.gms p{
+    text-align: center;
+    color: rgb(99, 99, 187);
+}
+.rate{
+    padding: 10px ;
+    display: flex;
+    font-size: 15px;
+    justify-content: space-around;
+}
+
+button{
+    width: 100px;
+    height: 25px;
+}
+
+.cap{
+    text-align: center;
+    color: rgb(209, 133, 40);
+}
