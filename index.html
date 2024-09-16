@@ -6,115 +6,463 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trusted Pharmacy</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4f0ae46a6d.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+
+
+<link rel="icon" type="image/x-icon" href="">
 </head>
 
 <body>
     <nav>
-        <!-- <div class="top-nav"> -->
-        <ul class="horizontal">
-            <li>Home</li>
-            <li>Order Status</li>
-            <li>FAQ</li>
-            <li>Contact Us</li>
-            <li>Testimonials</li>
+        <div class="contact-info">
+            <ul>
+                <li><a href="/">Tel +1 (800)923-7896</a></li>
+                <li><a href="TrustedPhamacy@easy.com">Email: TrustedPhamacy@easy.com </a></li>
+            </ul>
+        </div>
+        <ul>
+            <li><a href="#">Live Chat</a></li>
         </ul>
-        <ul class="horizontal">
-            <li>US toll Free +1 1234567890</li>
-            <li>Live Chat Online</li>
-            <li>English</li>
-            <li>USD 2</li>
-        </ul>
-        <!-- </div> -->
     </nav>
-    <header>
-        <!-- <div class="main-banner"> -->
+    <hr>
+    <div class="nav__content">
         <div class="logo">
-            <img src="logo.png" alt="logo">
-            <h3>Trusted Pharmacy</h3>
+            <h1>TrustedPharmacy</h1>
         </div>
-        <div class="banner-part2">
-            <div class="search-bar">
-                <input type="text" placeholder="Search..">
-            </div>
-            <div class="cart"> Cart</div>
+        <div class="search">
+            <input type="text" class="searchTerm" placeholder="Type here..">
+            <button type="submit" class="searchButton"><i class="fa fa-search"></i></button>
         </div>
-        <!-- </div> -->
+        <label for="check" class="checkbox">
+            <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+
+        <ul>
+            <!-- <li class="hide-contact-info"><a href="TrustedPhamacy@easy.com">Email: TrustedPhamacy@easy.com </a></li> -->
+            <li class="hide-contact-info"><a href="/">Tel +1 (800)923-7896</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="#">Order Status</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="#">Testimonials</a></li>
+
+
+
+            <!-- <li><a href="#">Live Chat Online</a></li>
+                <li>
+                    <select id="cars" name="cars">
+                        <option value="volvo">English</option>
+                        <option value="saab">Hindi</option>
+                        <option value="mercedes">Spanish</option>
+                        <option value="audi">French</option>
+                    </select>
+                </li> -->
+        </ul>
+    </div>
+
+
+    <header>
+        <!-- <img src="logo.png" alt="logo"> -->
+        <select>
+            <option>CATEGORIES LIST</option>
+            <option value="covid-19"><i class="fa-solid fa-pills"></i> COVID-19</option>
+            <option value="allergy"><i class="fa-solid fa-pills"></i> Allergy</option>
+            <option value="anti-viral"><i class="fa-solid fa-pills"></i> Anti Viral</option>
+            <option value="anti-depressants"><i class="fa-solid fa-pills"></i> Anti-Depressants</option>
+            <option value="antibacterial"><i class="fa-solid fa-pills"></i> Antibacterial</option>
+            <option value="antibiotics"><i class="fa-solid fa-pills"></i> Antibiotics</option>
+            <option value="arthritis"><i class="fa-solid fa-pills"></i> Arthritis</option>
+            <option value="asthma"><i class="fa-solid fa-pills"></i> Asthma</option>
+            <option value="birth-control"><i class="fa-solid fa-pills"></i> Birth Control</option>
+            <option value="cancer"><i class="fa-solid fa-pills"></i> Cancer</option>
+            <option value="blood-pressure"><i class="fa-solid fa-pills"></i> Blood Pressure</option>
+            <option value="cholesterol"><i class="fa-solid fa-pills"></i> Cholesterol</option>
+            <option value="cardiovascular"><i class="fa-solid fa-pills"></i> Cardiovascular</option>
+            <option value="diabetes"><i class="fa-solid fa-pills"></i> Diabetes</option>
+            <option value="diuretics"><i class="fa-solid fa-pills"></i> Diuretics</option>
+            <option value="erectile-dysfunction"><i class="fa-solid fa-pills"></i> Erectile Dysfunction</option>
+        </select>
+
     </header>
     <hr>
     <div class="main-content">
         <aside>
+            <h4>CATEGORIES LIST</h4>
+            <br>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
+            </label>
+            <!-- <input type="checkbox" name="check" id="check" /> -->
             <ul>
-                <b>
-                    <li>Trending</li>
-                </b>
-                <hr>
-                <li>Prod type1.....</li>
-                <li>Prod type2.....</li>
-                <li>Prod type3.....</li>
-                <li>Prod type4.....</li>
-                <li>Prod type5.....</li>
-                <li>Prod type6.....</li>
-                <li>Prod type7.....</li>
-                <li>Prod type8.....</li>
-                <li>Prod type9.....</li>
-                <li>Prod type10.....</li>
-                <li>Prod type11.....</li>
-                <li>Prod type12.....</li>
+                <li><a href="#"><i class="fa-solid fa-pills"></i> COVID-19</a></li>
+                <li><a href="#"><i class="fa-solid fa-pills"></i> Allergy</a></li>
+                <li><a href="#"><i class="fa-solid fa-pills"></i> Anti Viral</a></li>
+                <li><a href="#"><i class="fa-solid fa-pills"></i> Anti-Depressants</a></li>
+                <li><a href="#"><i class="fa-solid fa-pills"></i> Antibacterial</a></li>
+                <li><a href="#"><i class="fa-solid fa-pills"></i> Antibiotics</a></li>
+                <li><a href="#"><i class="fa-solid fa-pills"></i> Arthritis</a></li>
+                <li><a href="#"><i class="fa-solid fa-pills"></i> Asthma</a></li>
+                <li><a href="#"><i class="fa-solid fa-pills"></i> Birth Control</a></li>
+                <li><a href="#"><i class="fa-solid fa-pills"></i> Cancer</a></li>
+                <li><a href="#"><i class="fa-solid fa-pills"></i> Blood Pressure</a></li>
+                <li><a href="#"><i class="fa-solid fa-pills"></i> Cholesterol</a></li>
+                <li><a href="#"><i class="fa-solid fa-pills"></i> Cardiovascular</a></li>
+                <li><a href="#"><i class="fa-solid fa-pills"></i> Diabetes</a></li>
+                <li><a href="#"><i class="fa-solid fa-pills"></i> Diuretics</a></li>
+                <li><a href="#"><i class="fa-solid fa-pills"></i> Erectile Dysfunction</a></li>
+                <li><p>Shipping Options</p></li>
+                <li><img src="shipping.png" alt=""></li>
             </ul>
+
         </aside>
         <section>
-            <div class="main-sect"></div>
+            <div class="main-sect">
+                <h1>We are trusted by millions of USA customers</h1>
+                <p>Widest choice of meds at lowest prices</p>
+            </div>
             <div class="gallery-sect">
                 <div class="product-card">
-                    <div class="namePill">Viagra</div>
-                    <div class="ingripill">Sildenafil Citrate</div>
+                    <div class="tags">
+                        <div class="tag-left">
+
+                            <div class="namePill">Viagra</div>
+                            <p class="ingripill">Sildenafil Citrate</p>
+                        </div>
+                        <div class="discount">
+                            <img src="fda.jpg" style="width: 80px; height: 80px;" alt="">
+                        </div>
+                    </div>
                     <img src="prod-img1.jpg" alt="Product Image">
                     <div class="gms">
                         <p>25mg | 50mg | 75mg | 100mg | 120mg </p>
                     </div>
                     <div class="rate">
                         <b>
-                        <p>$0.31 per pill</p>
-                    </b>
-                    <button>Select pack</button>
+                            <p>$0.31 per pill</p>
+                        </b>
+                        <button><a href="page-2.html">Select pack</a></button>
                     </div>
                     <p class="cap">Manufacturer`s Suggested Retail Price $5.45</p>
                 </div>
                 <div class="product-card">
-                    <div class="namePill">Cialis</div>
-                    <div class="ingripill">Tadalafil</div>
-                    <img src="prod-img2.jpg" alt="Product Image">
+                    <div class="tags">
+                        <div class="tag-left">
+
+                            <div class="namePill">Viagra</div>
+                            <p class="ingripill">Sildenafil Citrate</p>
+                        </div>
+                        <div class="discount">
+                            <img src="fda.jpg" style="width: 80px; height: 80px;" alt="">
+                        </div>
+                    </div>
+                    <img src="cialis-2.jpg" alt="Product Image">
                     <div class="gms">
                         <p>25mg | 50mg | 75mg | 100mg | 120mg </p>
                     </div>
                     <div class="rate">
                         <b>
-                        <p>$0.31 per pill</p>
-                    </b>
-                    <button>Select pack</button>
+                            <p>$0.91 per pill</p>
+                        </b>
+                        <button>Select pack</button>
                     </div>
-                    <p class="cap">Manufacturer`s Suggested Retail Price $5.45</p>
+                    <p class="cap">Manufacturer`s Suggested Retail Price $6.72</p>
                 </div>
                 <div class="product-card">
-                    <div class="namePill">Kamagra Oral Jelly</div>
-                    <div class="ingripill">Sildenafil Citrate</div>
-                    <img src="prod-img3.jpg" alt="Product Image">
+                    <div class="tags">
+                        <div class="tag-left">
+
+                            <div class="namePill">Viagra</div>
+                            <p class="ingripill">Sildenafil Citrate</p>
+                        </div>
+                        <div class="discount">
+                            <img src="fda.jpg" style="width: 80px; height: 80px;" alt="">
+                        </div>
+                    </div><img src="kamagra-oral-jelly-3.jpg" alt="Product Image">
                     <div class="gms">
                         <p>25mg | 50mg | 75mg | 100mg | 120mg </p>
                     </div>
                     <div class="rate">
                         <b>
-                        <p>$0.31 per pill</p>
-                    </b>
-                    <button>Select pack</button>
+                            <p>$2.93 per pill</p>
+                        </b>
+                        <button>Select pack</button>
+                    </div>
+                    <p class="cap">Manufacturer`s Suggested Retail Price $7.58</p>
+                </div>
+                <div class="product-card">
+                    <div class="tags">
+                        <div class="tag-left">
+
+                            <div class="namePill">Viagra</div>
+                            <p class="ingripill">Sildenafil Citrate</p>
+                        </div>
+                        <div class="discount">
+                            <img src="fda.jpg" style="width: 80px; height: 80px;" alt="">
+                        </div>
+                    </div><img src="levitra-4.jpg" alt="Product Image">
+                    <div class="gms">
+                        <p>25mg | 50mg | 75mg | 100mg | 120mg </p>
+                    </div>
+                    <div class="rate">
+                        <b>
+                            <p>$0.84 per pill</p>
+                        </b>
+                        <button>Select pack</button>
+                    </div>
+                    <p class="cap">Manufacturer`s Suggested Retail Price $5.85</p>
+                </div>
+                <div class="product-card">
+                    <div class="tags">
+                        <div class="tag-left">
+
+                            <div class="namePill">Viagra</div>
+                            <p class="ingripill">Sildenafil Citrate</p>
+                        </div>
+                        <div class="discount">
+                            <img src="fda.jpg" style="width: 80px; height: 80px;" alt="">
+                        </div>
+                    </div><img src="viagra-super-active-5.jpg" alt="Product Image">
+                    <div class="gms">
+                        <p>25mg | 50mg | 75mg | 100mg | 120mg </p>
+                    </div>
+                    <div class="rate">
+                        <b>
+                            <p>$0.99 per pill</p>
+                        </b>
+                        <button>Select pack</button>
+                    </div>
+                    <p class="cap">Manufacturer`s Suggested Retail Price $4.59</p>
+                </div>
+                <div class="product-card">
+                    <div class="tags">
+                        <div class="tag-left">
+
+                            <div class="namePill">Viagra</div>
+                            <p class="ingripill">Sildenafil Citrate</p>
+                        </div>
+                        <div class="discount">
+                            <img src="fda.jpg" style="width: 80px; height: 80px;" alt="">
+                        </div>
+                    </div><img src="cialis-professional--sublingual-6.jpg" alt="Product Image">
+                    <div class="gms">
+                        <p>25mg | 50mg | 75mg | 100mg | 120mg </p>
+                    </div>
+                    <div class="rate">
+                        <b>
+                            <p>$2.06 per pill</p>
+                        </b>
+                        <button>Select pack</button>
+                    </div>
+                    <p class="cap">Manufacturer`s Suggested Retail Price $8.52</p>
+                </div>
+                <div class="product-card">
+                    <div class="tags">
+                        <div class="tag-left">
+
+                            <div class="namePill">Viagra</div>
+                            <p class="ingripill">Sildenafil Citrate</p>
+                        </div>
+                        <div class="discount">
+                            <img src="fda.jpg" style="width: 80px; height: 80px;" alt="">
+                        </div>
+                    </div><img src="brand-viagra-7.jpg" alt="Product Image">
+                    <div class="gms">
+                        <p>25mg | 50mg | 75mg | 100mg | 120mg </p>
+                    </div>
+                    <div class="rate">
+                        <b>
+                            <p>$2.57 per pill</p>
+                        </b>
+                        <button>Select pack</button>
+                    </div>
+                    <p class="cap">Manufacturer`s Suggested Retail Price $9.64</p>
+                </div>
+                <div class="product-card">
+                    <div class="tags">
+                        <div class="tag-left">
+
+                            <div class="namePill">Viagra</div>
+                            <p class="ingripill">Sildenafil Citrate</p>
+                        </div>
+                        <div class="discount">
+                            <img src="fda.jpg" style="width: 80px; height: 80px;" alt="">
+                        </div>
+                    </div><img src="kamagra-8.jpg" alt="Product Image">
+                    <div class="gms">
+                        <p>25mg | 50mg | 75mg | 100mg | 120mg </p>
+                    </div>
+                    <div class="rate">
+                        <b>
+                            <p>$2.71 per pill</p>
+                        </b>
+                        <button>Select pack</button>
+                    </div>
+                    <p class="cap">Manufacturer`s Suggested Retail Price $5.65</p>
+                </div>
+                <div class="product-card">
+                    <div class="tags">
+                        <div class="tag-left">
+
+                            <div class="namePill">Viagra</div>
+                            <p class="ingripill">Sildenafil Citrate</p>
+                        </div>
+                        <div class="discount">
+                            <img src="fda.jpg" style="width: 80px; height: 80px;" alt="">
+                        </div>
+                    </div><img src="viagra-professional--sublingual-9.jpg" alt="Product Image">
+                    <div class="gms">
+                        <p>25mg | 50mg | 75mg | 100mg | 120mg </p>
+                    </div>
+                    <div class="rate">
+                        <b>
+                            <p>$1.39 per pill</p>
+                        </b>
+                        <button>Select pack</button>
+                    </div>
+                    <p class="cap">Manufacturer`s Suggested Retail Price $5.72</p>
+                </div>
+                <div class="product-card">
+                    <div class="tags">
+                        <div class="tag-left">
+
+                            <div class="namePill">Viagra</div>
+                            <p class="ingripill">Sildenafil Citrate</p>
+                        </div>
+                        <div class="discount">
+                            <img src="fda.jpg" style="width: 80px; height: 80px;" alt="">
+                        </div>
+                    </div><img src="brand-cialis-10.jpg" alt="Product Image">
+                    <div class="gms">
+                        <p>25mg | 50mg | 75mg | 100mg | 120mg </p>
+                    </div>
+                    <div class="rate">
+                        <b>
+                            <p>$2.01 per pill</p>
+                        </b>
+                        <button>Select pack</button>
+                    </div>
+                    <p class="cap">Manufacturer`s Suggested Retail Price $11.30</p>
+                </div>
+                <div class="product-card">
+                    <div class="tags">
+                        <div class="tag-left">
+
+                            <div class="namePill">Viagra</div>
+                            <p class="ingripill">Sildenafil Citrate</p>
+                        </div>
+                        <div class="discount">
+                            <img src="fda.jpg" style="width: 80px; height: 80px;" alt="">
+                        </div>
+                    </div><img src="lasix-11.jpg" alt="Product Image">
+                    <div class="gms">
+                        <p>25mg | 50mg | 75mg | 100mg | 120mg </p>
+                    </div>
+                    <div class="rate">
+                        <b>
+                            <p>$0.31 per pill</p>
+                        </b>
+                        <button>Select pack</button>
+                    </div>
+                    <p class="cap">Manufacturer`s Suggested Retail Price $1.68</p>
+                </div>
+                <div class="product-card">
+                    <div class="tags">
+                        <div class="tag-left">
+
+                            <div class="namePill">Viagra</div>
+                            <p class="ingripill">Sildenafil Citrate</p>
+                        </div>
+                        <div class="discount">
+                            <img src="fda.jpg" style="width: 80px; height: 80px;" alt="">
+                        </div>
+                    </div><img src="cialis-daily-12.jpg" alt="Product Image">
+                    <div class="gms">
+                        <p>25mg | 50mg | 75mg | 100mg | 120mg </p>
+                    </div>
+                    <div class="rate">
+                        <b>
+                            <p>$0.59 per pill</p>
+                        </b>
+                        <button>Select pack</button>
+                    </div>
+                    <p class="cap">Manufacturer`s Suggested Retail Price $4.92</p>
+                </div>
+                <div class="product-card">
+                    <div class="tags">
+                        <div class="tag-left">
+
+                            <div class="namePill">Viagra</div>
+                            <p class="ingripill">Sildenafil Citrate</p>
+                        </div>
+                        <div class="discount">
+                            <img src="fda.jpg" style="width: 80px; height: 80px;" alt="">
+                        </div>
+                    </div><img src="priligy-13.jpg" alt="Product Image">
+                    <div class="gms">
+                        <p>25mg | 50mg | 75mg | 100mg | 120mg </p>
+                    </div>
+                    <div class="rate">
+                        <b>
+                            <p>$1.53 per pill</p>
+                        </b>
+                        <button>Select pack</button>
+                    </div>
+                    <p class="cap">Manufacturer`s Suggested Retail Price $6.12</p>
+                </div>
+                <div class="product-card">
+                    <div class="tags">
+                        <div class="tag-left">
+
+                            <div class="namePill">Viagra</div>
+                            <p class="ingripill">Sildenafil Citrate</p>
+                        </div>
+                        <div class="discount">
+                            <img src="fda.jpg" style="width: 80px; height: 80px;" alt="">
+                        </div>
+                    </div><img src="cialis-super-active-14.jpg" alt="Product Image">
+                    <div class="gms">
+                        <p>25mg | 50mg | 75mg | 100mg | 120mg </p>
+                    </div>
+                    <div class="rate">
+                        <b>
+                            <p>$1.85 per pill</p>
+                        </b>
+                        <button>Select pack</button>
+                    </div>
+                    <p class="cap">Manufacturer`s Suggested Retail Price $7.85</p>
+                </div>
+                <div class="product-card">
+                    <div class="tags">
+                        <div class="tag-left">
+
+                            <div class="namePill">Viagra</div>
+                            <p class="ingripill">Sildenafil Citrate</p>
+                        </div>
+                        <div class="discount">
+                            <img src="fda.jpg" style="width: 80px; height: 80px;" alt="">
+                        </div>
+                    </div><img src="propecia-15.jpg" alt="Product Image">
+                    <div class="gms">
+                        <p>25mg | 50mg | 75mg | 100mg | 120mg </p>
+                    </div>
+                    <div class="rate">
+                        <b>
+                            <p>$0.71 per pill</p>
+                        </b>
+                        <button>Select pack</button>
                     </div>
                     <p class="cap">Manufacturer`s Suggested Retail Price $5.45</p>
                 </div>
 
 
 
-                </div>
+            </div>
+          
     </div>
+
     </section>
     </div>
     <footer>
@@ -123,18 +471,25 @@
                 <li>Home</li>
                 <li>About Us</li>
                 <li>Contact Us</li>
+            </ul>
+            <ul>
+
                 <li>Our Policy</li>
                 <li>Terms & Conditions</li>
                 <li>Sitemap</li>
             </ul>
         </div>
         <div class="center-foot">
-            <h6>Payment Options</h6>
-            <h6>Secure Payment Process</h6>
-            <h6>Copyright @TrustedPhamacy.com</h6>
+            <p>Payment Options</p>
+            <img src="payment.png" alt="">
+            <!-- <p>Secure Payment Process</p> -->
+            <li><p>Shipping Options</p></li>
+            <li><img src="shipping.png" alt=""></li>
+            <!-- <p class="copy">Copyright @TrustedPhamacy.com</p> -->
         </div>
         <div class="right-foot">
-            <h6>Subcribe to News</h6>
+            <p>Subcribe to News</p>
+
         </div>
     </footer>
 </body>
